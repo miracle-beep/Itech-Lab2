@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab2</title>
+	<link rel="stylesheet" href="styles.css">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        body {
+            background-image: url('img/background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .box {
+		    float: right;
+            width: 50%;
+            box-sizing: border-box;
+            border: 1px solid #6189b4;
+			background-color: #6189b4;
+            padding: 35px;
+            margin: 15px;
+			text-align: center;
+        }
+		
+img {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1200px) {
+    img {
+        width: 600px;
+    }
+}
+
+@media (max-width: 800px) {
+    img {
+        width: 400px;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+    <h1 style="text-decoration: underline dotted; color: #6189b4">Приклад inline-вбудовування</h1>
+
+    <p>Інший текст на сторінці...</p>
+	
+        <div class="box" style = "color:#34ebd8">Елемент 1</div>
+		
+		 <img src="img/gosling.jpg" alt="Живе зображення">
+		 
+	 <table>
+    	            <tr>
+    	                <th></th><th>2017</th><th>2018</th><th>2019</th>
+    	            </tr>
+    	            <tr>
+    	                <td>ИТех</td><td>93</td><td>97</td><td>98</td>
+    	            </tr>
+    	            <tr>
+    	                <td>КСх</td><td>91</td><td>98</td><td>97</td>
+    	            </tr>
+    	            <tr>
+    	                <td>СПО</td><td>96</td><td>94</td><td>97</td>
+    	            </tr>
+    	        </table>
+
+
+</body>
+</html>
